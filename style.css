@@ -18,10 +18,14 @@
   min-height: 60px;
 }
 
+body{
+  font-family: 'Poppins';
+}
+
 .logo{
   width: 76px;
   height: 20px;
-  font-family: 'Poppins';
+  
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
