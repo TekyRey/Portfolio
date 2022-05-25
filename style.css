@@ -2,7 +2,7 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: Poppins, sans-serif;
   background-color: #fff;
 }
 
@@ -40,7 +40,7 @@ header.logo {
   place-items: center;
 }
 
-header .logo a {
+nav .logo{
   color: #6070ff;
   font-weight: 700;
   font-size: 18px;
@@ -54,6 +54,10 @@ header .logo a {
   padding-top: 10px;
 }
 
+.primary {
+  color: #172b4d;
+
+}
 nav {
   display: flex;
 }
@@ -100,3 +104,31 @@ nav {
 .first-section .introduction {
   padding-top: 100px;
 }
+
+.social-platforms a {
+  text-decoration: none;
+  padding-left: 5px;
+}
+
+.social-platforms {
+  margin: 24px auto;
+}
+
+.social-platforms ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.social-platforms a i {
+  color: #172b4d;
+  height: 20px;
+  width: 18px;
+  /* margin: 0 21px; */
+}
+
+.icon {
+  height: 30px;
+  width: 30px;
+  opacity: 75%;
+}
+
