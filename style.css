@@ -4,7 +4,7 @@ body{
 
 .phone-screen {
   width: 375px;
-  max-width: 450px;
+  /* max-width: 450px; */
   height: 100%;
   margin: 5vh auto;
   left: 0px;
@@ -81,6 +81,12 @@ header .logo a {
   padding-top: 5px;
 }
 
+.phone-screen button {
+  margin-top: 20px;
+  margin-left: auto;
+  all: unset;
+  /* cursor: pointer; */
+}
 
 .first-section {
   background-image: url("images/mobile-bg.png");
