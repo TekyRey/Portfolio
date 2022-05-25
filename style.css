@@ -1,20 +1,24 @@
-body{
-  font-family: 'Poppins';
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
 }
 
 .phone-screen {
   width: 375px;
   height: 100%;
   margin: 5vh auto;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
   display: flex;
   flex-direction: column;
-  background: #ffffff;
+  background: #fff;
 }
 
 .header {
-  background-color: #ffffff;
+  background-color: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -35,8 +39,7 @@ header.logo {
   display: flex;
   align-items: center;
   text-align: center;
-  color: #6070FF;
-  display: grid;
+  color: #6070ff;
   place-items: center;
 }
 
@@ -53,6 +56,7 @@ header .logo a {
   margin-left: auto;
   padding-top: 10px;
 }
+
 .introduction h1 {
   margin-top: 0;
   font-size: 40px;
@@ -62,7 +66,6 @@ header .logo a {
 .introduction p {
   font-weight: 400;
 }
-
 
 .connect p {
   text-transform: uppercase;
@@ -96,6 +99,3 @@ header .logo a {
 .first-section .introduction {
   padding-top: 100px;
 }
-
-
-
