@@ -9,7 +9,7 @@ body {
 .phone-screen {
   width: 375px;
   height: 100%;
-  margin: 5vh auto;
+  margin: 2vh auto;
   left: 0;
   top: 0;
   display: flex;
@@ -88,7 +88,7 @@ nav {
   padding-top: 5px;
 }
 
-.phone-screen button {
+nav.button {
   margin-top: 20px;
   margin-left: auto;
   all: unset;
