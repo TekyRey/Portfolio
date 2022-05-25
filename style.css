@@ -64,6 +64,52 @@ header .logo a {
   padding-top: 10px;
 }
 
+.mobile-menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(96, 112, 255, 0.9);
+  padding-bottom: 80px;
+  visibility: hidden;
+}
+
+.mobile-menu button {
+  margin-top: 20px;
+  margin-left: auto;
+  all: unset;
+  cursor: pointer;
+}
+
+.mobile-menu img {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 28px;
+  right: 38px;
+}
+
+.mobile-menu .mobile-items {
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.mobile-menu .mobile-items > a {
+  text-decoration: none;
+  font-size: 32px;
+  font-weight: 600;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+.menu-icon button {
+  all: unset;
+  cursor: pointer;
+}
+
 .socials p {
   text-transform: uppercase;
   color: #7f8cff;
