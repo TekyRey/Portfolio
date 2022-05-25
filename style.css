@@ -4,7 +4,6 @@ body{
 
 .phone-screen {
   width: 375px;
-  /* max-width: 450px; */
   height: 100%;
   margin: 5vh auto;
   left: 0px;
@@ -54,18 +53,18 @@ header .logo a {
   margin-left: auto;
   padding-top: 10px;
 }
-.intro h1 {
+.introduction h1 {
   margin-top: 0;
   font-size: 40px;
   line-height: 52px;
 }
 
-.intro p {
+.introduction p {
   font-weight: 400;
 }
 
 
-.socials p {
+.connect p {
   text-transform: uppercase;
   color: #7f8cff;
   letter-spacing: 2px;
@@ -73,11 +72,11 @@ header .logo a {
   font-size: 16px;
 }
 
-.social {
+.social-image {
   padding-right: 20px;
 }
 
-.socials {
+.connect {
   padding-top: 5px;
 }
 
@@ -85,7 +84,6 @@ header .logo a {
   margin-top: 20px;
   margin-left: auto;
   all: unset;
-  /* cursor: pointer; */
 }
 
 .first-section {
@@ -95,7 +93,7 @@ header .logo a {
   color: #172b4d;
 }
 
-.first-section .intro {
+.first-section .introduction {
   padding-top: 100px;
 }
 
