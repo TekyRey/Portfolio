@@ -7,5 +7,86 @@
   top: 0px;
   display: flex;
   flex-direction: column;
-  background: #87a8e6;
+  background: #ffffff;
 }
+
+.header {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 60px;
+}
+
+.logo{
+  width: 76px;
+  height: 20px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #6070FF;
+}
+
+header {
+  padding: 10px 30px;
+}
+
+header.logo {
+  display: grid;
+  place-items: center;
+}
+
+.nav-items a {
+  color: #344563;
+  text-decoration: none;
+}
+
+header .logo a {
+  color: #6070ff;
+  font-weight: 700;
+  font-size: 18px;
+  text-decoration: none;
+  line-height: 20px;
+  padding-top: 20px;
+}
+
+.menu-icon {
+  margin-left: auto;
+  padding-top: 10px;
+}
+
+.socials p {
+  text-transform: uppercase;
+  color: #7f8cff;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.social {
+  padding-right: 20px;
+}
+
+.socials {
+  padding-top: 5px;
+}
+
+
+.first-section {
+  background-image: url("images/mobile-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #172b4d;
+}
+
+.first-section .intro {
+  padding-top: 100px;
+}
+
+/* phone screen */
+
