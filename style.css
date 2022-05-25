@@ -1,0 +1,11 @@
+.phone-screen {
+  width: 375px;
+  max-width: 450px;
+  height: 100vh;
+  margin: 5vh auto;
+  left: 0px;
+  top: 0px;
+  display: flex;
+  flex-direction: column;
+  background: #87a8e6;
+}
