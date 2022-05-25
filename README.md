@@ -2,7 +2,7 @@
 
 # Hello Microverse Project
 
-> This is a html webpage that contains a header with a h1 in it
+> This is a portfolio website
 
 ## Built With
 
@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://tekyrey.github.io/Hello-Microverse/index.html)
+[Live Demo Link](https://tekyrey.github.io/Portfolio/)
 
 
 
@@ -20,7 +20,7 @@
 - VS CODE
 
 ### Setup
-Clone the repository using the command "git clone https://github.com/TekyRey/Hello-Microverse.git" in your local machine
+Clone the repository using the command "git clone https://github.com/TekyRey/Portfolio.git" in your local machine
 After cloning the repository, move into the folder you cloned into and open the index.html file using your browser
 
 ## Authors
@@ -44,8 +44,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration from Microverse
+- Microverse
 
 ## 📝 License
 
