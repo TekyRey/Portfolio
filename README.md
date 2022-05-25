@@ -10,12 +10,6 @@
 - CSS
 
 
-## Live Demo
-
-[Live Demo Link](https://tekyrey.github.io/Portfolio/)
-
-
-
 ### Prerequisites
 - VS CODE
 
