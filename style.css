@@ -1,7 +1,7 @@
 .phone-screen {
   width: 375px;
   max-width: 450px;
-  height: 100vh;
+  height: 100%;
   margin: 5vh auto;
   left: 0px;
   top: 0px;
@@ -9,6 +9,8 @@
   flex-direction: column;
   background: #ffffff;
 }
+
+
 
 .header {
   background-color: #ffffff;
@@ -22,8 +24,13 @@ body{
   font-family: 'Poppins';
 }
 
-.logo{
-  width: 76px;
+
+header {
+  padding: 10px 30px;
+}
+
+header.logo {
+    width: 76px;
   height: 20px;
   
   font-style: normal;
@@ -34,13 +41,6 @@ body{
   align-items: center;
   text-align: center;
   color: #6070FF;
-}
-
-header {
-  padding: 10px 30px;
-}
-
-header.logo {
   display: grid;
   place-items: center;
 }
@@ -90,20 +90,6 @@ header .logo a {
   right: 38px;
 }
 
-.mobile-menu .mobile-items {
-  margin-top: 40px;
-  margin-left: 40px;
-}
-
-.mobile-menu .mobile-items > a {
-  text-decoration: none;
-  font-size: 32px;
-  font-weight: 600;
-  color: #fff;
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 20px;
-}
 
 .menu-icon button {
   all: unset;
@@ -138,5 +124,31 @@ header .logo a {
   padding-top: 100px;
 }
 
-/* phone screen */
+
+.mobile-menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(96, 112, 255, 0.9);
+  padding-bottom: 80px;
+  visibility: hidden;
+}
+
+
+.mobile-menu button {
+  margin-top: 20px;
+  margin-left: auto;
+  all: unset;
+  cursor: pointer;
+}
+
+.mobile-menu img {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 28px;
+  right: 38px;
+}
 
