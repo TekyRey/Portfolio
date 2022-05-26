@@ -9,7 +9,7 @@ body {
 .phone-screen {
   width: 375px;
   height: 100%;
-  margin: 2vh auto;
+  margin: 1vh auto;
   left: 0;
   top: 0;
   display: flex;
@@ -80,9 +80,9 @@ nav {
   font-size: 16px;
 }
 
-.social-image {
+/* .social-platforms {
   padding-right: 20px;
-}
+} */
 
 .connect {
   padding-top: 5px;
@@ -92,6 +92,9 @@ nav.button {
   margin-top: 20px;
   margin-left: auto;
   all: unset;
+  cursor: pointer;
+  /* display: block; */
+  background-color: transparent;
 }
 
 .first-section {
@@ -105,30 +108,32 @@ nav.button {
   padding-top: 100px;
 }
 
-.social-platforms a {
+/* .social-platforms a {
   text-decoration: none;
   padding-left: 5px;
-}
+} */
 
-.social-platforms {
-  margin: 24px auto;
-}
+/* .social-platforms { */
+ /* margin-right: auto !important; */
+  /* padding-top: 10px; */
+/* } */
 
 .social-platforms ul {
   list-style-type: none;
   display: flex;
+  flex-direction: wrap !important;
+  padding-left: 0;
 }
 
-.social-platforms a i {
+/* .social-platforms a i {
   color: #172b4d;
-  height: 20px;
+  height: 20px; 
   width: 18px;
-  /* margin: 0 21px; */
-}
+  margin: 0 !important;
+} */
 
 .icon {
   height: 30px;
   width: 30px;
-  opacity: 75%;
+  opacity: 85%;
 }
-
