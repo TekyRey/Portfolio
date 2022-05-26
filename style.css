@@ -138,3 +138,29 @@ nav.button {
   padding-right: 10px;
   height: 20px;
 }
+
+.experience-section {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.experience-section .canopy {
+  color: #344563;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.experience-section .bullet {
+  color: #7a869a;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.card .card-text {
+  color: #344563;
+  font-weight: 400;
+  font-size: 15px;
+}
+
