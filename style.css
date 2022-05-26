@@ -260,3 +260,125 @@ button {
   font-size: 15px;
 }
 
+
+/* About me Section */
+.about-me {
+  padding: 10px 30px;
+}
+
+.about-me h2 {
+  color: #172b4d;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.about-me p {
+  color: #344563;
+  font-size: 16px;
+}
+
+.about-me h3 {
+  color: #7f8cff;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.about-me img {
+  display: block;
+  padding-bottom: 20px;
+}
+
+.about-me button {
+  width: 50%;
+  font-weight: 500;
+}
+
+
+/* Languages Section  */
+.languages-section {
+  margin-top: 30px;
+  padding: 10px 30px;
+  margin-bottom: 30px;
+}
+
+.languages-section h2 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #000;
+}
+
+.language-list {
+  display: grid;
+}
+
+.language-list .language {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 10px 10px;
+}
+
+.language-list > .language {
+  background: #f7f7f9;
+  margin-top: 15px;
+  border: none;
+  border-radius: 10px;
+}
+
+.language > p {
+  color: #253858;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.skills-a {
+  border-top: 2px solid #dfe1e6;
+  border-bottom: 2px solid #dfe1e6;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.skills-a h4 {
+  margin-bottom: 0;
+}
+
+.frameworks {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.frameworks h4 {
+  margin-bottom: 0;
+}
+
+.frameworks img {
+  width: 10%;
+  height: 10%;
+  margin-left: auto;
+}
+
+.skills-a img {
+  width: 10%;
+  height: 10%;
+  margin-left: auto;
+  color: #acb7c3;
+}
+
+.languages-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.languages-title img {
+  width: 6%;
+  height: 7%;
+  margin-left: auto;
+}
+
