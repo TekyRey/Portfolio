@@ -139,28 +139,17 @@ nav.button {
   height: 20px;
 }
 
-
 .work-section {
-    background-color: #f7f7f9;
-    width: 100%;
-}
-
-  .card {
-    flex-direction: row;
-    gap: 20px;
-  }
-
-  
-/* Work Section */
-.work-section {
-  margin-top: 5em;
   background-color: #f7f7f9;
+  width: 100%;
+  margin-top: 5em;
   display: grid;
 }
 
 .card {
   display: flex;
   flex-direction: column;
+  gap: 20px;
   margin: 6em 20px;
   background-color: #fff;
   padding: 20px;
@@ -234,34 +223,12 @@ button {
   transition: background-color 1s ease-in;
 }
 
-
 .experience-section {
   display: flex;
   flex-direction: row;
   gap: 15px;
 }
 
-.experience-section .canopy {
-  color: #344563;
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: 13px;
-}
-
-.experience-section .bullet {
-  color: #7a869a;
-  font-weight: 600;
-  font-size: 13px;
-}
-
-.card .card-text {
-  color: #344563;
-  font-weight: 400;
-  font-size: 15px;
-}
-
-
-/* About me Section */
 .about-me {
   padding: 10px 30px;
 }
@@ -298,8 +265,6 @@ button {
   font-weight: 500;
 }
 
-
-/* Languages Section  */
 .languages-section {
   margin-top: 30px;
   padding: 10px 30px;
@@ -385,4 +350,3 @@ button {
   height: 7%;
   margin-left: auto;
 }
-
