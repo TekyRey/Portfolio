@@ -125,15 +125,41 @@ nav.button {
   padding-left: 0;
 }
 
-/* .social-platforms a i {
+.social-platforms a i {
   color: #172b4d;
   height: 20px; 
   width: 18px;
   margin: 0 !important;
-} */
+}
 
 .icon {
-  height: 30px;
-  width: 30px;
-  opacity: 85%;
+  height: 20px;
+  width: 36px;
+  opacity: 75%;
+  padding-right: 10px;
+}
+
+.icon .m{
+  height: 5px;
+  width: 20px;
+  /* opacity: 75%; */
+  padding-right: 10px;
+}
+
+.linkedini{
+  /* display: block; */
+    margin-left: auto;
+     opacity: 75%;
+  /* padding-right: 10px; */
+height:20px;
+    /* margin-right: auto; */
+}
+
+.linkedin{
+  /* display: block; */
+    margin-left: auto;
+  padding-right: 10px;
+   opacity: 75%;
+height:20px;
+    /* margin-right: auto; */
 }
