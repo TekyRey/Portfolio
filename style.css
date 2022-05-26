@@ -40,7 +40,7 @@ header.logo {
   place-items: center;
 }
 
-nav .logo{
+nav .logo {
   color: #6070ff;
   font-weight: 700;
   font-size: 18px;
@@ -56,8 +56,8 @@ nav .logo{
 
 .primary {
   color: #172b4d;
-
 }
+
 nav {
   display: flex;
 }
@@ -112,7 +112,7 @@ nav.button {
 
 .social-platforms a i {
   color: #172b4d;
-  height: 20px; 
+  height: 20px;
   width: 18px;
   margin: 0 !important;
 }
@@ -122,23 +122,16 @@ nav.button {
   width: 36px;
   opacity: 75%;
   padding-right: 10px;
+  text-decoration: none;
 }
 
-.icon .m{
-  height: 5px;
-  width: 20px;
-  padding-right: 10px;
-}
-
-.linkedini{
+.linkedini {
   margin-left: auto;
-  opacity: 75%;
-  height:20px;
+  height: 20px;
 }
 
-.linkedin{
+.linkedin {
   margin-left: auto;
   padding-right: 10px;
-  opacity: 75%;
-  height:20px;
+  height: 20px;
 }
