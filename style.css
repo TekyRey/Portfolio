@@ -139,6 +139,102 @@ nav.button {
   height: 20px;
 }
 
+
+.work-section {
+    background-color: #f7f7f9;
+    width: 100%;
+}
+
+  .card {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  
+/* Work Section */
+.work-section {
+  margin-top: 5em;
+  background-color: #f7f7f9;
+  display: grid;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  margin: 6em 20px;
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+}
+
+.card h2 {
+  color: #172b4d;
+  font-size: 32px;
+  line-height: 44px;
+  margin-bottom: 0;
+}
+
+.experience-section {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.experience-section .canopy {
+  color: #344563;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.experience-section .bullet {
+  color: #7a869a;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.card .card-text {
+  color: #344563;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 20px;
+  align-items: flex-end;
+  padding-left: 0;
+  margin-top: 0;
+}
+
+.skills > li {
+  background-color: #ebebff;
+  padding: 4px 12px;
+  border: none;
+  border-radius: 15px;
+  color: #6070ff;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  flex-basis: auto;
+  width: 40%;
+  color: #396df2;
+  font-size: 17px;
+  border: 1px solid #396df2;
+  border-radius: 10px;
+  padding: 12px 8px;
+  background-color: #fff;
+  transition: background-color 1s ease-in;
+}
+
+
 .experience-section {
   display: flex;
   flex-direction: row;
