@@ -289,6 +289,13 @@ button {
   padding-bottom: 20px;
 }
 
+.about-me.linkedin {
+  margin-left: auto;
+  padding-right: 10px;
+  all: unset;
+  height: 20px;
+}
+
 .about-me button {
   width: 50%;
   font-weight: 500;
