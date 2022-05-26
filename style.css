@@ -1,0 +1,140 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+  background-color: #fff;
+}
+
+.phone-screen {
+  width: 375px;
+  height: 718px;
+  margin: auto;
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+}
+
+.header {
+  background-color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 60px;
+}
+
+header {
+  padding: 10px 30px;
+}
+
+header.logo {
+  width: 76px;
+  height: 20px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+  color: #6070ff;
+  place-items: center;
+}
+
+nav .logo {
+  color: #6070ff;
+  font-weight: 700;
+  font-size: 18px;
+  text-decoration: none;
+  line-height: 20px;
+  padding-top: 20px;
+}
+
+.menu-icon {
+  margin-left: auto;
+  padding-top: 10px;
+}
+
+.primary {
+  color: #172b4d;
+}
+
+nav {
+  display: flex;
+}
+
+.introduction h1 {
+  margin-top: 0;
+  font-size: 50px;
+  line-height: 52px;
+  padding-left: 15px;
+}
+
+.introduction p {
+  padding-left: 15px;
+  padding-top: 0;
+  font-weight: 400;
+}
+
+.connect p {
+  text-transform: uppercase;
+  color: #7f8cff;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.connect {
+  padding-left: 15px;
+}
+
+nav.button {
+  margin-top: 20px;
+  margin-left: auto;
+  all: unset;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.first-section {
+  background-image: url("images/mobile-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #172b4d;
+}
+
+.first-section .introduction {
+  padding-top: 100px;
+}
+
+.social-platforms ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: wrap !important;
+  padding-left: 0;
+}
+
+.social-platforms a i {
+  color: #172b4d;
+  height: 20px;
+  width: 18px;
+  margin: 0 !important;
+}
+
+.icon {
+  height: 20px;
+  width: 36px;
+  opacity: 75%;
+  padding-right: 10px;
+  text-decoration: none;
+}
+
+.linkedini {
+  margin-left: auto;
+  height: 20px;
+}
+
+.linkedin {
+  margin-left: auto;
+  padding-right: 10px;
+  height: 20px;
+}
