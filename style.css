@@ -223,12 +223,6 @@ button {
   transition: background-color 1s ease-in;
 }
 
-.experience-section {
-  display: flex;
-  flex-direction: row;
-  gap: 15px;
-}
-
 .about-me {
   padding: 10px 30px;
 }
@@ -256,8 +250,8 @@ button {
   padding-bottom: 20px;
 }
 
-.about-me ul{
-  display: none
+.about-me ul {
+  display: none;
 }
 
 .about-me button {
