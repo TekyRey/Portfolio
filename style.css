@@ -113,12 +113,8 @@ nav.button {
   padding-left: 0;
 }
 
-.languages-section{
+.languages-section {
   list-style-type: none;
-}
-
-.language-list {
-  all: unset ;
 }
 
 .social-platforms a i {
@@ -236,7 +232,7 @@ button {
   border-top-right-radius: 50px;
 }
 
-.about-me{
+.about-me {
   padding: 10px 30px;
 }
 
@@ -273,6 +269,7 @@ button {
 }
 
 .languages-section {
+  list-style-type: none;
   margin-top: 30px;
   padding: 10px 30px;
   margin-bottom: 30px;
@@ -286,6 +283,7 @@ button {
 
 .language-list {
   display: grid;
+  all: unset;
 }
 
 .language-list .language {
