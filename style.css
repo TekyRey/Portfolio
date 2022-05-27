@@ -109,8 +109,16 @@ nav.button {
 .social-platforms ul {
   list-style-type: none;
   display: flex;
-  flex-direction: wrap !important;
+  flex-direction: wrap;
   padding-left: 0;
+}
+
+.languages-section{
+  list-style-type: none;
+}
+
+.language-list {
+  all: unset ;
 }
 
 .social-platforms a i {
@@ -223,7 +231,12 @@ button {
   transition: background-color 1s ease-in;
 }
 
-.about-me {
+.about-me-section {
+  background-color: #fff;
+  border-top-right-radius: 50px;
+}
+
+.about-me{
   padding: 10px 30px;
 }
 
@@ -263,6 +276,7 @@ button {
   margin-top: 30px;
   padding: 10px 30px;
   margin-bottom: 30px;
+  background-color: #fff;
 }
 
 .languages-section h2 {
