@@ -196,7 +196,7 @@ nav.button {
   padding-right: 50px;
   flex-direction: row;
   list-style: none;
-  gap: 20px;
+  gap: 8px;
   align-items: flex-end;
   padding-left: 0;
   margin-top: 0;
