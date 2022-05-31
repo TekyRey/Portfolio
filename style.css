@@ -190,7 +190,10 @@ nav.button {
 }
 
 .skills {
-  display: flex;
+  float: left;
+  display: inline;
+  /* display: flex; */
+  padding-right: 50px;
   flex-direction: row;
   list-style: none;
   gap: 20px;
@@ -199,7 +202,9 @@ nav.button {
   margin-top: 0;
 }
 
+
 .skills > li {
+  display: inline;
   background-color: #ebebff;
   padding: 4px 12px;
   border: none;
