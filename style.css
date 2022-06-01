@@ -190,7 +190,9 @@ nav.button {
 }
 
 .skills {
+  float: left;
   display: flex;
+  padding-right: 50px;
   flex-direction: row;
   list-style: none;
   gap: 20px;
@@ -356,4 +358,78 @@ button {
   width: 6%;
   height: 7%;
   margin-left: auto;
+}
+
+.contact-me-form {
+  background-color: #6070ff;
+  background-image: url("images/contact-shape-mobile.svg");
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top right;
+  margin-top: 100px;
+  border: none;
+  border-top-left-radius: 100px;
+}
+
+.contact-form {
+  padding: 60px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-form h2 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.contact-form p {
+  color: #ebebff;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 20px;
+  width: 100%;
+}
+
+.contact-form form > input {
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+}
+
+.contact-form form > input::placeholder {
+  color: #172b4d;
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+  padding-left: 10px;
+}
+
+.contact-form form textarea::placeholder {
+  color: #b3bac5;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.contact-form form textarea {
+  border: none;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: #6070ff;
+  color: #fff;
 }
