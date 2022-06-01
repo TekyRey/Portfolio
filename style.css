@@ -191,8 +191,7 @@ nav.button {
 
 .skills {
   float: left;
-  display: inline;
-  /* display: flex; */
+  display: flex;
   padding-right: 50px;
   flex-direction: row;
   list-style: none;
@@ -202,9 +201,7 @@ nav.button {
   margin-top: 0;
 }
 
-
 .skills > li {
-  display: inline;
   background-color: #ebebff;
   padding: 4px 12px;
   border: none;
@@ -363,7 +360,6 @@ button {
   margin-left: auto;
 }
 
-
 .contact-me-form {
   background-color: #6070ff;
   background-image: url("images/contact-shape-mobile.svg");
@@ -416,14 +412,14 @@ button {
 .contact-form form > input::placeholder {
   color: #172b4d;
   font-size: 17px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   padding-left: 10px;
 }
 
 .contact-form form textarea::placeholder {
   color: #b3bac5;
   font-size: 15px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   padding-left: 10px;
   padding-top: 10px;
 }
@@ -437,4 +433,3 @@ button:hover {
   background-color: #6070ff;
   color: #fff;
 }
-
