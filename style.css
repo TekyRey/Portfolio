@@ -377,7 +377,7 @@ button {
 }
 
 .contact-form {
-  padding: 40px 30px;
+  padding: 60px 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -387,12 +387,15 @@ button {
 .contact-form h2 {
   color: #fff;
   font-size: 40px;
+  font-weight: 700;
   margin-bottom: 0;
 }
 
 .contact-form p {
   color: #ebebff;
   font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
   text-align: center;
 }
 
