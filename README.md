@@ -2,7 +2,7 @@
 
 # Hello Microverse Project
 
-> This is a portfolio website
+> This is a personal portfolio website
 
 ## Built With
 
