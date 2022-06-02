@@ -434,6 +434,9 @@ button:hover {
   color: #fff;
 }
 
+li.ruby {
+  display :none;
+}
 
 /* Desktop View */
 .navbar {
@@ -456,6 +459,10 @@ button:hover {
   .mobile-menu {
     display: none;
   }
+
+  li.ruby {
+  display: inline;
+}
 
   .navbar {
     display: flex;
