@@ -457,8 +457,8 @@ li.ruby {
     display: none;
   }
 
-  li  .ruby {
-     display: inline;
+  li.ruby {
+    display: inline;
   }
 
   .navbar {
