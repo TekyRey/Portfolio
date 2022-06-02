@@ -23,7 +23,7 @@
 Clone the repository using the command "git clone https://github.com/TekyRey/Portfolio.git" in your local machine
 After cloning the repository, open it on VS code or any code editor of your your choice, move into the folder you cloned into and open the index.html file using your browser
 
-## Authors
+## Author
 
 👤 **Rehema Mwaka**
 

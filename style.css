@@ -457,41 +457,41 @@ li.ruby {
     display: none;
   }
 
-li.ruby {
-  display: inline;
-}
+  li  .ruby {
+     display: inline;
+  }
 
-.navbar {
-  display: flex;
-  margin-left: auto;
-}
+  .navbar {
+    display: flex;
+    margin-left: auto;
+  }
 
-.navbar li {
-  padding-left: 20px;
-  list-style: none;
-}
+  .navbar li {
+    padding-left: 20px;
+    list-style: none;
+  }
 
-.navbar li a {
-  text-decoration: none;
-  color: #344563;
-  font-weight: 500;
-}
+  .navbar li a {
+    text-decoration: none;
+    color: #344563;
+    font-weight: 500;
+  }
 
-.first-section {
-  background-image: url("images/desktop-bg.png");
-  background-size: cover;
-}
+  .first-section {
+    background-image: url("images/desktop-bg.png");
+    background-size: cover;
+  }
 
-.first-section main {
-  max-width: 600px;
-  padding-top: 100px;
-  margin: auto;
-}
+  .first-section main {
+    max-width: 600px;
+    padding-top: 100px;
+    margin: auto;
+  }
 
-.work-section {
-  background-color: #f7f7f9;
-  width: 100%;
-}
+  .work-section {
+    background-color: #f7f7f9;
+    width: 100%;
+  }
 
   .mobile-img {
     display: none;
