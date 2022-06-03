@@ -507,6 +507,10 @@ li.ruby {
     width: 50%;
   }
 
+  .desktop-img:hover{
+    transform: scale(0.7);
+  }
+
   .card-2 {
     flex-direction: row-reverse;
   }
