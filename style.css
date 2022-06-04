@@ -27,25 +27,22 @@ header {
 }
 
 header.logo {
-  width: 76px;
-  height: 20px;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  line-height: 20px;
   text-align: center;
   color: #6070ff;
   place-items: center;
 }
 
-nav .logo {
-  color: #6070ff;
-  font-weight: 700;
-  font-size: 18px;
-  text-decoration: none;
-  line-height: 20px;
-  padding-top: 20px;
+.logo:hover {
+  transform: scaleX(-1);
 }
+
+nav .logo img{
+ width : 250px;
+ height : 70px;
+} 
 
 .menu-icon {
   margin-left: auto;
@@ -100,9 +97,6 @@ nav.button {
   color: #172b4d;
 }
 
-.first-section .introduction {
-  padding-top: 100px;
-}
 
 .social-platforms ul {
   list-style-type: none;
@@ -125,6 +119,13 @@ nav.button {
   padding-right: 10px;
   text-decoration: none;
 }
+
+/* .icon:hover {
+    background-color: #FFCCCC;
+    width: 20px;
+    height: 36px;
+    transform: rotate(180deg);
+} */
 
 .linkedini {
   margin-left: auto;
@@ -655,21 +656,43 @@ li.ruby {
 }
 
 .social-platforms {
-  animation-duration: 2s;
+  animation-duration: 3s;
   animation-name: icones;
 }
 
 @keyframes icones {
   from {
-    margin-top: -15%;
-    width: 40%;
-    background: brown;
-    transform: rotate(-90deg);
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  75% {
+    font-size: 300%;
+    margin-left: 25%;
+    width: 150%;
   }
 
   to {
-    margin-bottom: 5%;
-    width: 40%;
-    transform: rotate(2deg);
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.introduction h1{
+  animation-duration: 3s;
+  animation-name: content;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes content {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
   }
 }
