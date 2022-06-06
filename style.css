@@ -653,3 +653,23 @@ li.ruby {
   all: unset;
   cursor: pointer;
 }
+
+.social-platforms {
+  animation-duration: 2s;
+  animation-name: icones;
+}
+
+@keyframes icones {
+  from {
+    margin-top: -15%;
+    width: 40%;
+    background: brown;
+    transform: rotate(-90deg);
+  }
+
+  to {
+    margin-bottom: 5%;
+    width: 40%;
+    transform: rotate(2deg);
+  }
+}
