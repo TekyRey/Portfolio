@@ -605,6 +605,11 @@ li.ruby {
   position: relative;
 }
 
+nav .logo img{
+ width : 150px;
+ height : 50px;
+} 
+
 .mobile-menu {
   position: absolute;
   top: 0;
