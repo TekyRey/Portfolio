@@ -63,6 +63,14 @@ header.logo {
   margin-left: auto;
 }
 
+.mobile-menu img {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 28px;
+  right: 38px;
+}
+
 nav .logo img {
   width: 150px;
   height: 50px;
@@ -623,14 +631,6 @@ li.ruby {
   margin-left: auto;
   all: unset;
   cursor: pointer;
-}
-
-.mobile-menu img {
-  width: 18px;
-  height: 18px;
-  position: absolute;
-  top: 28px;
-  right: 38px;
 }
 
 .mobile-menu .mobile-items {

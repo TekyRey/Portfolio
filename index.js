@@ -11,7 +11,7 @@ closeMobileMenu.addEventListener('click', () => {
 });
 
 mobileMenuItems.forEach((item) => {
-    item.addEventListener('click', () => {
-        document.querySelector('.mobile-menu').classList.remove('show-menu');
-    });
-})
+  item.addEventListener('click', () => {
+    document.querySelector('.mobile-menu').classList.remove('show-menu');
+  });
+});
