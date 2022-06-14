@@ -39,10 +39,34 @@ header.logo {
   transform: scaleX(-1);
 }
 
-nav .logo img{
- width : 250px;
- height : 70px;
-} 
+.about-me img {
+  display: block;
+  padding-bottom: 20px;
+}
+
+.frameworks img {
+  width: 10%;
+  height: 10%;
+  margin-left: auto;
+}
+
+.skills-a img {
+  width: 10%;
+  height: 10%;
+  margin-left: auto;
+  color: #acb7c3;
+}
+
+.languages-title img {
+  width: 6%;
+  height: 7%;
+  margin-left: auto;
+}
+
+nav .logo img {
+  width: 150px;
+  height: 50px;
+}
 
 .menu-icon {
   margin-left: auto;
@@ -97,11 +121,9 @@ nav.button {
   color: #172b4d;
 }
 
-
 .social-platforms ul {
   list-style-type: none;
   display: flex;
-  flex-direction: wrap;
   padding-left: 0;
 }
 
@@ -330,11 +352,6 @@ button:hover {
   margin-bottom: 12px;
 }
 
-.about-me img {
-  display: block;
-  padding-bottom: 20px;
-}
-
 .about-me ul {
   display: none;
 }
@@ -406,30 +423,11 @@ button:hover {
   margin-bottom: 0;
 }
 
-.frameworks img {
-  width: 10%;
-  height: 10%;
-  margin-left: auto;
-}
-
-.skills-a img {
-  width: 10%;
-  height: 10%;
-  margin-left: auto;
-  color: #acb7c3;
-}
-
 .languages-title {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-}
-
-.languages-title img {
-  width: 6%;
-  height: 7%;
-  margin-left: auto;
 }
 
 li.ruby {
@@ -605,11 +603,6 @@ li.ruby {
   position: relative;
 }
 
-nav .logo img{
- width : 150px;
- height : 50px;
-} 
-
 .mobile-menu {
   position: absolute;
   top: 0;
@@ -675,25 +668,6 @@ nav .logo img{
     font-size: 300%;
     margin-left: 25%;
     width: 150%;
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
-
-.introduction h1{
-  animation-duration: 3s;
-  animation-name: content;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-}
-
-@keyframes content {
-  from {
-    margin-left: 100%;
-    width: 300%;
   }
 
   to {
