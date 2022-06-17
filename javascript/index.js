@@ -34,7 +34,7 @@ formInput.addEventListener('submit', (e) => {
 
 // Popup window
 
-const portfolio = document.querySelector('#portfolio');
+const portfolio = document.querySelector('portfolio');
 
 const projectArray = [
   {
@@ -122,7 +122,7 @@ submitButton.forEach((button) => {
   button.addEventListener('click', () => {
     popup.classList.remove('hide');
     mainContent.classList.add('blur');
-    popup.innerHTML = `
+    popup.innerHTML = '
     <div class='popup-header'>
     <h2>Tonic</h2>
     <span class='cancel'>&times;</span>
@@ -169,7 +169,7 @@ submitButton.forEach((button) => {
             <button>See More <img src='images/angelist.png' alt=''></button>
         </div>
     </div>
-</div>
+</div>'
     `;
 
     document.querySelector('.cancel').addEventListener('click', () => {
