@@ -527,7 +527,7 @@ li.ruby {
 }
 
 .blur {
-  filter: blur(5px);
+  filter: blur(55px);
 }
 
   .card-2 .content {
@@ -717,8 +717,8 @@ li.ruby {
 }
 
 .popup-hero-img {
-  width: 1156px;
-  height: 500px;
+  width: 1006px;
+  height: 300px;
 }
 
 @media (max-width: 768px) {
