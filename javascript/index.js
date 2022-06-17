@@ -82,3 +82,35 @@ portfolio.innerHTML = projectArray.map((project) => {
   return html;
 });
 
+const submitButton = document.querySelectorAll('.submit');
+const popup = document.querySelector('.popup');
+const mainContent = document.querySelector('.page-content');
+
+submitButton.forEach((button) => {
+  button.addEventListener('click', () => {
+    popup.classList.remove('hide');
+    mainContent.classList.add('blur');
+    popup.innerHTML = `
+    <div class="popup-header">
+    <h2>Tonic</h2>
+    <span class="cancel">&times;</span>
+</div>
+s
+<div class="experience-section">
+    <p class="mobile-only canopy">Canopy</p>
+    <p class="desktop-only canopy">Uber</p>
+    <img src="images/Counter.svg" alt="" aria-hidden="true">
+    <p class="mobile-only bullet">Back End Dev</p>
+    <p class="desktop-only bullet">Lead Developer</p>
+    <img src="images/Counter.svg" alt="" aria-hidden="true">
+    <p class="mobile-only bullet">2015</p>
+    <p class="desktop-only bullet">2018</p>
+</div>
+
+<img class="popup-hero-img" src="images/popup-img.png" alt="">
+
+<div class="popup-content">
+    <div class="popup-text">
+        <p clas
+
+
