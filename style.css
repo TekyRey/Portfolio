@@ -740,9 +740,8 @@ small {
 @media (max-width: 768px) {
   .popup {
     width: 80%;
-    height: 50%;
+    height: 60%;
     margin: auto;
-    padding-bottom: 100px;
     overflow: scroll;
   }
 
