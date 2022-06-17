@@ -16,41 +16,74 @@ mobileMenuItems.forEach((item) => {
   });
 });
 
+// Form Validation
+
+// const formInput = document.getElementById("contact-form");
+// const email = document.querySelector("#email");
+// const errorElement = document.getElementById("error");
+// errorElement.style.color = "red";
+
+// formInput.addEventListener("submit", (e) => {
+//   e.preventDefault();
+//   if (email.value === email.value.toLowerCase()) {
+//     formInput.submit();
+//   } else {
+//     errorElement.innerText = "Please type your e-mail in lowercase";
+//   }
+// });
+
+
 // Popup window
 
 const portfolio = document.querySelector('#portfolio');
 
 const projectArray = [
   {
-    mobileImg: 'images/tonic-section.svg',
-    desktopImg: 'images/desktop-snap3.png',
-    cardTitle: 'Tonic',
-    cardDesc: 'A daily selection of privately personalized reads; no accounts or sign-ups required',
-    class: 'card',
+    mobileImg: "images/tonic-section.svg",
+    desktopImg: "images/desktop-snap3.png",
+    cardTitle: "Tonic",
+    cardDesc:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required",
+    languages: ["html", "css", "JavaScript"],
+    liveLink: "https://TekyRey.github.io/Portfolio/",
+    github: "https://github.com/TekyRey/Portfolio",
+    class: "card",
   },
 
   {
-    mobileImg: 'images/availability-section.svg',
-    desktopImg: 'images/desktop-snap2.png',
-    cardTitle: 'Multi-Post Stories',
-    cardDesc: 'A daily selection of privately personalized reads; no accounts or sign-ups required',
-    class: 'card-2',
+    mobileImg: "images/availability-section.svg",
+    desktopImg: "images/desktop-snap2.png",
+    cardTitle: "Multi-Post Stories",
+    cardDesc:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required",
+    languages: ["html", "css", "JavaScript"],
+    liveLink: "https://TekyRey.github.io/Portfolio/",
+    github: "https://github.com/TekyRey/Portfolio",
+    class: "card-2",
   },
 
   {
-    mobileImg: 'images/tonic-section.svg',
-    desktopImg: 'images/desktop-snap4.png',
-    cardTitle: 'Tonic',
-    cardDesc: 'A daily selection of privately personalized reads; no accounts or sign-ups required',
-    class: 'card',
+    mobileImg: "images/tonic-section.svg",
+    desktopImg: "images/desktop-snap4.png",
+    cardTitle: "Tonic",
+    cardDesc:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required",
+    languages: ["html", "css", "JavaScript"],
+    liveLink: "https://TekyRey.github.io/Portfolio/",
+    github: "https://github.com/TekyRey/Portfolio",
+    class: "card",
   },
 
   {
-    mobileImg: 'images/tonic-section.svg',
-    desktopImg: 'images/desktop-snap3.png',
-    cardTitle: 'Tonic',
-    cardDesc: 'A daily selection of privately personalized reads; no accounts or sign-ups required',
-    class: 'card-2',
+    mobileImg: "images/tonic-section.svg",
+    desktopImg: "images/desktop-snap3.png",
+    cardTitle: "Tonic",
+    cardDesc:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required",
+    languages: ["html", "css", "JavaScript"],
+    liveLink: "https://TekyRey.github.io/Portfolio/",
+    github: "https://github.com/TekyRey/Portfolio",
+    class: "card-2",
   },
 ];
 
@@ -58,7 +91,9 @@ portfolio.innerHTML = projectArray.map((project) => {
   const html = `
   <section class="card ${project.class} work">
   <img class= "mobile-img" src="${project.mobileImg}" alt="" aria-hidden="true">
-  <img class= "desktop-img" src="${project.desktopImg}" alt="" aria-hidden="true">
+  <img class= "desktop-img" src="${
+    project.desktopImg
+  }" alt="" aria-hidden="true">
 
   <div class="content">
       <h2>${project.cardTitle}</h2>
@@ -71,9 +106,7 @@ portfolio.innerHTML = projectArray.map((project) => {
       </div>
       <p class="card-text">${project.cardDesc}</p>
       <ul class="skills">
-          <li>html</li>
-          <li>css</li>
-          <li>javaScript</li>
+          ${project.languages.map((x) => `<li>${x}</li>`).join("")}
       </ul>
       <button class="see-project submit" type="submit">See Project</button>
   </div>
