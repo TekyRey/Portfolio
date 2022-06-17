@@ -43,7 +43,7 @@ const projectArray = [
     cardTitle: 'Tonic',
     cardDesc:
       'A daily selection of privately personalized reads; no accounts or sign-ups required',
-    languages: ['html','css','Javascript'],
+    languages: ['html', 'css', 'Javascript'],
     liveLink: 'https://TekyRey.github.io/Portfolio/',
     github: 'https://github.com/TekyRey/Portfolio',
     class: 'card',
@@ -55,7 +55,7 @@ const projectArray = [
     cardTitle: 'Multi-Post Stories',
     cardDesc:
       'A daily selection of privately personalized reads; no accounts or sign-ups required',
-    languages: ['html','css','Javascript'],
+    languages: ['html', 'css', 'Javascript'],
     liveLink: 'https://TekyRey.github.io/Portfolio/',
     github: 'https://github.com/TekyRey/Portfolio',
     class: 'card-2',
@@ -67,7 +67,7 @@ const projectArray = [
     cardTitle: 'Tonic',
     cardDesc:
       'A daily selection of privately personalized reads; no accounts or sign-ups required',
-    languages: ['html','css','Javascript'],
+    languages: ['html', 'css', 'Javascript'],
     liveLink: 'https://TekyRey.github.io/Portfolio/',
     github: 'https://github.com/TekyRey/Portfolio',
     class: 'card',
@@ -79,7 +79,7 @@ const projectArray = [
     cardTitle: 'Tonic',
     cardDesc:
       'A daily selection of privately personalized reads; no accounts or sign-ups required',
-    languages: ['html','css','Javascript'],
+    languages: ['html', 'css', 'Javascript'],
     liveLink: 'https://TekyRey.github.io/Portfolio/',
     github: 'https://github.com/TekyRey/Portfolio',
     class: 'card-2',
