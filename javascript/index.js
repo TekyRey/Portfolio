@@ -95,7 +95,7 @@ submitButton.forEach((button) => {
     <h2>Tonic</h2>
     <span class="cancel">&times;</span>
 </div>
-s
+
 <div class="experience-section">
     <p class="mobile-only canopy">Canopy</p>
     <p class="desktop-only canopy">Uber</p>
@@ -111,6 +111,32 @@ s
 
 <div class="popup-content">
     <div class="popup-text">
-        <p clas
+        <p class="desktop-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+            standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s
+             with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
 
+          <p class="mobile-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+          standard dummy text ever since the 1500s</p>
+    </div>
+    <div>
+        <ul class="skills">
+            <li>html</li>
+            <li class="desktop-only">Ruby on rails</li>
+            <li>css</li>
+            <li>javaScript</li>
+        </ul>
+        <div class="popup-buttons">
+            <button>See Live <img src="images/see-more.png" alt=""></button>
+            <button>See More <img src="images/angelist.png" alt=""></button>
+        </div>
+    </div>
+</div>
+    `;
 
+    document.querySelector('.cancel').addEventListener('click', () => {
+      popup.classList.add('hide');
+      mainContent.classList.remove('blur');
+      popup.innerHTML = '';
+    });
+  });
+});
