@@ -39,10 +39,10 @@ header.logo {
   transform: scaleX(-1);
 }
 
-nav .logo img{
- width : 250px;
- height : 70px;
-} 
+nav .logo img {
+  width: 250px;
+  height: 70px;
+}
 
 .menu-icon {
   margin-left: auto;
@@ -96,7 +96,6 @@ nav.button {
   background-repeat: no-repeat;
   color: #172b4d;
 }
-
 
 .social-platforms ul {
   list-style-type: none;
@@ -678,7 +677,7 @@ li.ruby {
   }
 }
 
-.introduction h1{
+.introduction h1 {
   animation-duration: 3s;
   animation-name: content;
   animation-iteration-count: infinite;
