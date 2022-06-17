@@ -240,7 +240,7 @@ nav.button {
   cursor: pointer;
 }
 
-.see-project{
+.see-project {
   margin-right: 95%;
 }
 
@@ -527,12 +527,12 @@ li.ruby {
   }
 
   .hide {
-  visibility: hidden;
-}
+    visibility: hidden;
+ }
 
-.blur {
-  backdrop-filter: blur(30px);
-}
+  .blur {
+    backdrop-filter: blur(30px);
+  }
 
   .card-2 .content {
     padding-right: 50px;
@@ -723,7 +723,6 @@ li.ruby {
 
 .popup-hero-img {
   width: 100%;
-  /* height: 500px; */
 }
 
 @media (max-width: 768px) {
