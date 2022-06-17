@@ -692,13 +692,12 @@ small {
   display: block;
 }
 
-
 /* Popup section  */
 
 .popup {
   width: 80%;
-  margin: auto;
   height: 100%;
+  margin: auto;
   position: fixed;
   top: 2%;
   left: 10%;
@@ -741,6 +740,7 @@ small {
 @media (max-width: 768px) {
   .popup {
     width: 80%;
+    height: 50%;
     margin: auto;
     padding-bottom: 100px;
     overflow: scroll;

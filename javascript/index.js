@@ -158,6 +158,7 @@ submitButton.forEach((button) => {
             <li>css</li>
             <li>javaScript</li>
         </ul>
+        
         <div class="popup-buttons">
             <button>See Live <img src="images/see-more.png" alt=""></button>
             <button>See More <img src="images/angelist.png" alt=""></button>
