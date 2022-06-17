@@ -16,7 +16,7 @@ mobileMenuItems.forEach((item) => {
   });
 });
 
-// Form Validation
+// Form Valid
 
 const formInput = document.getElementById('contact-form');
 const email = document.querySelector('#email');
