@@ -240,6 +240,10 @@ nav.button {
   cursor: pointer;
 }
 
+.see-project {
+  margin-right: 95%;
+}
+
 button {
   font-family: inherit;
   cursor: pointer;
@@ -522,6 +526,14 @@ li.ruby {
     flex-direction: row-reverse;
   }
 
+  .hide {
+    visibility: hidden;
+  }
+
+  .blur {
+    backdrop-filter: blur(30px);
+  }
+
   .card-2 .content {
     padding-right: 50px;
   }
@@ -623,6 +635,7 @@ li.ruby {
   height: 100%;
   transition: transform 0.6s ease-in-out;
   background-color: rgba(96, 112, 255, 0.9);
+  -webkit-backdrop-filter: blur(3px);
   backdrop-filter: blur(3px);
   padding-bottom: 80px;
   visibility: hidden;
@@ -630,6 +643,14 @@ li.ruby {
 
 .show-menu {
   visibility: visible;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.blur {
+  filter: blur(5px);
 }
 
 .mobile-menu button {
@@ -657,4 +678,104 @@ li.ruby {
 .menu-icon button {
   all: unset;
   cursor: pointer;
+}
+
+/* Email validation styles */
+small {
+  color: red;
+  text-align: left;
+  display: none;
+  font-size: 10px;
+}
+
+.display-content {
+  display: block;
+}
+
+/* Popup section  */
+
+.popup {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  position: fixed;
+  top: 2%;
+  left: 10%;
+  overflow: scroll;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 16px;
+}
+
+.popup-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cancel {
+  cursor: pointer;
+}
+
+.popup-header .cancel {
+  font-size: 35px;
+}
+
+.popup-content {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  gap: 20px;
+  padding: 20px;
+  color: #344563;
+}
+
+.mobile-text {
+  display: none;
+}
+
+.popup-hero-img {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .popup {
+    width: 80%;
+    height: 60%;
+    margin: auto;
+    overflow: scroll;
+  }
+
+  .popup-content {
+    grid-template-columns: 1fr;
+  }
+
+  .popup-hero-img {
+    width: 100%;
+  }
+
+  .popup-text {
+    font-size: 12px;
+  }
+
+  .desktop-text {
+    display: none;
+  }
+
+  .mobile-text {
+    display: block;
+  }
+
+  .popup-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+  }
+
+  .popup button {
+    width: 60%;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 12px;
+  }
 }
