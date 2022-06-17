@@ -75,7 +75,7 @@ portfolio.innerHTML = projectArray.map((project) => {
           <li>css</li>
           <li>javaScript</li>
       </ul>
-      <button class="submit" type="submit">See Project</button>
+      <button class="see-project submit" type="submit">See Project</button>
   </div>
 </section>
   `;
