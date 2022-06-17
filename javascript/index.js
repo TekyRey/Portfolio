@@ -23,7 +23,7 @@ const portfolio = document.querySelector('#portfolio');
 const projectArray = [
   {
     mobileImg: 'images/tonic-section.svg',
-    desktopImg: 'images/desktop-snap1.png',
+    desktopImg: 'images/desktop-snap3.png',
     cardTitle: 'Tonic',
     cardDesc: 'A daily selection of privately personalized reads; no accounts or sign-ups required',
     class: 'card',
@@ -39,7 +39,7 @@ const projectArray = [
 
   {
     mobileImg: 'images/tonic-section.svg',
-    desktopImg: 'images/desktop-snap1.png',
+    desktopImg: 'images/desktop-snap4.png',
     cardTitle: 'Tonic',
     cardDesc: 'A daily selection of privately personalized reads; no accounts or sign-ups required',
     class: 'card',
@@ -47,7 +47,7 @@ const projectArray = [
 
   {
     mobileImg: 'images/tonic-section.svg',
-    desktopImg: 'images/desktop-snap1.png',
+    desktopImg: 'images/desktop-snap3.png',
     cardTitle: 'Tonic',
     cardDesc: 'A daily selection of privately personalized reads; no accounts or sign-ups required',
     class: 'card-2',
