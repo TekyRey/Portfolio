@@ -528,7 +528,7 @@ li.ruby {
 
   .hide {
     visibility: hidden;
- }
+  }
 
   .blur {
     backdrop-filter: blur(30px);
