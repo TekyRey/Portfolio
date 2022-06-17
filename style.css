@@ -527,7 +527,7 @@ li.ruby {
 }
 
 .blur {
-  filter: blur(55px);
+  backdrop-filter: blur(30px);
 }
 
   .card-2 .content {
@@ -679,15 +679,17 @@ li.ruby {
 /* Popup section  */
 
 .popup {
-  width: 80%;
-  margin: auto;
-  height: 100%;
+  width: 1156px;
+  margin: 5px;
+  height: 1006px;
   position: fixed;
   top: 2%;
   left: 10%;
-  overflow: scroll;
+  /* right: 10%; */
+  /* overflow: scroll; */
   background-color: #fff;
-  padding: 20px;
+  padding: 10px;
+  border-radius: 16px;
 }
 
 .popup-header {
@@ -717,7 +719,7 @@ li.ruby {
 }
 
 .popup-hero-img {
-  width: 1006px;
+  width: 1156px;
   height: 300px;
 }
 
