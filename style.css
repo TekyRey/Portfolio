@@ -717,7 +717,8 @@ li.ruby {
 }
 
 .popup-hero-img {
-  width: 100%;
+  width: 1156px;
+  height: 500px;
 }
 
 @media (max-width: 768px) {
