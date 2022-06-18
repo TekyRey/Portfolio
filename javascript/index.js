@@ -34,7 +34,7 @@ formInput.addEventListener('submit', (e) => {
 
 // Popup window
 
-const portfolio = document.querySelector('portfolio');
+const portfolio = document.querySelector('#portfolio');
 
 const projectArray = [
   {
@@ -122,7 +122,7 @@ submitButton.forEach((button) => {
   button.addEventListener('click', () => {
     popup.classList.remove('hide');
     mainContent.classList.add('blur');
-    popup.innerHTML = '
+    popup.innerHTML = `
     <div class='popup-header'>
     <h2>Tonic</h2>
     <span class='cancel'>&times;</span>
@@ -169,7 +169,7 @@ submitButton.forEach((button) => {
             <button>See More <img src='images/angelist.png' alt=''></button>
         </div>
     </div>
-</div>'
+</div>
     `;
 
     document.querySelector('.cancel').addEventListener('click', () => {
@@ -179,3 +179,33 @@ submitButton.forEach((button) => {
     });
   });
 });
+
+//save data on local storage
+const userName = form.elements.name;
+const userEmail = form.elements.email;
+const userMessage = form.elements.message;
+function populateStorage() {
+  const userInput = {
+    name: form.elements.name.value,
+    email: form.elements.email.value,
+    message: form.elements.message.value,
+  };
+  localStorage.setItem("userInput", JSON.stringify(userInput));
+}
+function setForm() {
+  const storedInput = JSON.parse(localStorage.getItem("userInput"));
+  const currentUserName = storedInput.name;
+  const currentUserEmail = storedInput.email;
+  const currentMessage = storedInput.message;
+  form.elements.name.value = currentUserName;
+  form.elements.email.value = currentUserEmail;
+  form.elements.message.value = currentMessage;
+}
+if (!localStorage.getItem("userInput")) {
+  populateStorage();
+} else {
+  setForm();
+}
+userName.onchange = populateStorage;
+userEmail.onchange = populateStorage;
+userMessage.onchange = populateStorage; 
