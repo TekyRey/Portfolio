@@ -203,14 +203,17 @@ function setFormData() {
   form.elements.message.value = currentMessage;
 }
 
+function getData() {
+  localStorage.getItem('userInput')
+}
+
 userName.onchange = populateLocalStorage;
 userEmail.onchange = populateLocalStorage;
 userMessage.onchange = populateLocalStorage;
 
 document.addEventListener('DOMContentLoaded', () => {
-  localStorage.getItem('userInput')
+  getData()
     ? setFormData()
     : populateLocalStorage()
-},
-  
+}, 
 );
