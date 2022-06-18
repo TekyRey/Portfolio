@@ -180,8 +180,6 @@ submitButton.forEach((button) => {
   });
 });
 
-//local storage
-
 const form = document.querySelector('form');
 
 const userName = form.elements.name;
@@ -204,18 +202,15 @@ function setFormData() {
   form.elements.email.value = currentUserEmail;
   form.elements.message.value = currentMessage;
 }
-if (!localStorage.getItem('userInput')) {
-  populateLocalStorage();
-} else {
-  setFormData();
-}
 
-//document.ready function
+userName.onchange = populateLocalStorage;
+userEmail.onchange = populateLocalStorage;
+userMessage.onchange = populateLocalStorage;
+
 document.addEventListener('DOMContentLoaded', () => {
   localStorage.getItem('userInput')
     ? setFormData()
-    : userName.onchange = populateLocalStorage;
-  userEmail.onchange = populateLocalStorage;
-  userMessage.onchange = populateLocalStorage;
+    : populateLocalStorage()
 },
+  
 );
