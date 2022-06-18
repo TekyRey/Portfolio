@@ -180,7 +180,9 @@ submitButton.forEach((button) => {
   });
 });
 
-//save data on local storage
+//local storage
+const form = document.querySelector("form");
+
 const userName = form.elements.name;
 const userEmail = form.elements.email;
 const userMessage = form.elements.message;
@@ -206,6 +208,14 @@ if (!localStorage.getItem("userInput")) {
 } else {
   setForm();
 }
-userName.onchange = populateStorage;
-userEmail.onchange = populateStorage;
-userMessage.onchange = populateStorage; 
+ 
+
+//document.ready function
+document.addEventListener('DOMContentLoaded', () => {
+  localStorage.getItem("userInput")
+    ? setForm()
+    : userName.onchange = populateStorage;
+      userEmail.onchange = populateStorage;
+      userMessage.onchange = populateStorage;;
+}
+);
