@@ -91,8 +91,8 @@ portfolio.innerHTML = projectArray.map((project) => {
   <section class='card ${project.class} work'>
   <img class= 'mobile-img' src='${project.mobileImg}' alt='' aria-hidden='true'>
   <img class= 'desktop-img' src='${
-    project.desktopImg
-  }' alt='' aria-hidden='true'>
+  project.desktopImg
+}' alt='' aria-hidden='true'>
 
   <div class='content'>
       <h2>${project.cardTitle}</h2>
