@@ -181,21 +181,22 @@ submitButton.forEach((button) => {
 });
 
 //local storage
-const form = document.querySelector("form");
+
+const form = document.querySelector('form');
 
 const userName = form.elements.name;
 const userEmail = form.elements.email;
 const userMessage = form.elements.message;
-function populateStorage() {
+function populateLocalStorage() {
   const userInput = {
     name: form.elements.name.value,
     email: form.elements.email.value,
     message: form.elements.message.value,
   };
-  localStorage.setItem("userInput", JSON.stringify(userInput));
+  localStorage.setItem('userInput', JSON.stringify(userInput));
 }
-function setForm() {
-  const storedInput = JSON.parse(localStorage.getItem("userInput"));
+function setFormData() {
+  const storedInput = JSON.parse(localStorage.getItem('userInput'));
   const currentUserName = storedInput.name;
   const currentUserEmail = storedInput.email;
   const currentMessage = storedInput.message;
@@ -203,19 +204,18 @@ function setForm() {
   form.elements.email.value = currentUserEmail;
   form.elements.message.value = currentMessage;
 }
-if (!localStorage.getItem("userInput")) {
-  populateStorage();
+if (!localStorage.getItem('userInput')) {
+  populateLocalStorage();
 } else {
-  setForm();
+  setFormData();
 }
- 
 
 //document.ready function
 document.addEventListener('DOMContentLoaded', () => {
-  localStorage.getItem("userInput")
-    ? setForm()
-    : userName.onchange = populateStorage;
-      userEmail.onchange = populateStorage;
-      userMessage.onchange = populateStorage;;
-}
+  localStorage.getItem('userInput')
+    ? setFormData()
+    : userName.onchange = populateLocalStorage;
+  userEmail.onchange = populateLocalStorage;
+  userMessage.onchange = populateLocalStorage;
+},
 );
