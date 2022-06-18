@@ -203,7 +203,7 @@ function setFormData() {
   form.elements.message.value = currentMessage;
 }
 
-if (!localStorage.getItem("userInput")) {
+if (!localStorage.getItem('userInput')) {
   populateLocalStorage();
 } else {
   setFormData();
