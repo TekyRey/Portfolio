@@ -1,88 +1,87 @@
-const openMobileMenu = document.querySelector('.menu-icon img');
-const closeMobileMenu = document.querySelector('.mobile-menu button');
-const mobileMenuItems = document.querySelectorAll('.mobile-items a');
+const openMobileMenu = document.querySelector(".menu-icon img");
+const closeMobileMenu = document.querySelector(".mobile-menu button");
+const mobileMenuItems = document.querySelectorAll(".mobile-items a");
 
-openMobileMenu.addEventListener('click', () => {
-  document.querySelector('.mobile-menu').classList.add('show-menu');
+openMobileMenu.addEventListener("click", () => {
+  document.querySelector(".mobile-menu").classList.add("show-menu");
 });
 
-closeMobileMenu.addEventListener('click', () => {
-  document.querySelector('.mobile-menu').classList.remove('show-menu');
+closeMobileMenu.addEventListener("click", () => {
+  document.querySelector(".mobile-menu").classList.remove("show-menu");
 });
 
 mobileMenuItems.forEach((item) => {
-  item.addEventListener('click', () => {
-    document.querySelector('.mobile-menu').classList.remove('show-menu');
+  item.addEventListener("click", () => {
+    document.querySelector(".mobile-menu").classList.remove("show-menu");
   });
 });
 
 // Form Validation
 
-const formInput = document.getElementById('contact-form');
-const email = document.querySelector('#email');
-const errorElement = document.getElementById('error');
-errorElement.style.color = 'red';
+const formInput = document.getElementById("contact-form");
+const email = document.querySelector("#email");
+const errorElement = document.getElementById("error");
+errorElement.style.color = "red";
 
-formInput.addEventListener('submit', (e) => {
+formInput.addEventListener("submit", (e) => {
   e.preventDefault();
   if (email.value === email.value.toLowerCase()) {
     formInput.submit();
   } else {
-    errorElement.innerText = 'Please type your e-mail in lowercase';
+    errorElement.innerText = "Please type your e-mail in lowercase";
   }
 });
 
 // Popup window
 
-const portfolio = document.querySelector('#portfolio');
+const portfolio = document.querySelector("#portfolio");
 
 const projectArray = [
   {
-    mobileImg: 'images/tonic-section.svg',
-    desktopImg: 'images/desktop-snap3.png',
-    cardTitle: 'Tonic',
-    cardDesc:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required',
-    languages: ['html', 'css', 'Javascript'],
-    liveLink: 'https://TekyRey.github.io/Portfolio/',
-    github: 'https://github.com/TekyRey/Portfolio',
-    class: 'card',
+    mobileImg: "images/conference-mobile.jpeg",
+    desktopImg: "images/conference-desktop.jpeg",
+    cardTitle: "Conference Page",
+    cardDesc: "A women in tech conference page",
+    languages: ["html", "css", "Javascript"],
+    liveLink: "https://tekyrey.github.io/Conference-Page/index.html",
+    github: "https://github.com/TekyRey/Conference-Page",
+    class: "card",
   },
 
   {
-    mobileImg: 'images/availability-section.svg',
-    desktopImg: 'images/desktop-snap2.png',
-    cardTitle: 'Multi-Post Stories',
+    mobileImg: "images/availability-section.svg",
+    desktopImg: "images/desktop-snap2.png",
+    cardTitle: "Multi-Post Stories",
     cardDesc:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required',
-    languages: ['html', 'css', 'Javascript'],
-    liveLink: 'https://TekyRey.github.io/Portfolio/',
-    github: 'https://github.com/TekyRey/Portfolio',
-    class: 'card-2',
+      "A daily selection of privately personalized reads; no accounts or sign-ups required",
+    languages: ["html", "css", "Javascript"],
+    liveLink: "https://TekyRey.github.io/Portfolio/",
+    github: "https://github.com/TekyRey/Portfolio",
+    class: "card-2",
   },
 
   {
-    mobileImg: 'images/tonic-section.svg',
-    desktopImg: 'images/desktop-snap4.png',
-    cardTitle: 'Tonic',
+    mobileImg: "images/tonic-section.svg",
+    desktopImg: "images/desktop-snap4.png",
+    cardTitle: "Tonic",
     cardDesc:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required',
-    languages: ['html', 'css', 'Javascript'],
-    liveLink: 'https://TekyRey.github.io/Portfolio/',
-    github: 'https://github.com/TekyRey/Portfolio',
-    class: 'card',
+      "A daily selection of privately personalized reads; no accounts or sign-ups required",
+    languages: ["html", "css", "Javascript"],
+    liveLink: "https://TekyRey.github.io/Portfolio/",
+    github: "https://github.com/TekyRey/Portfolio",
+    class: "card",
   },
 
   {
-    mobileImg: 'images/tonic-section.svg',
-    desktopImg: 'images/desktop-snap3.png',
-    cardTitle: 'Tonic',
+    mobileImg: "images/tonic-section.svg",
+    desktopImg: "images/desktop-snap3.png",
+    cardTitle: "Tonic",
     cardDesc:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required',
-    languages: ['html', 'css', 'Javascript'],
-    liveLink: 'https://TekyRey.github.io/Portfolio/',
-    github: 'https://github.com/TekyRey/Portfolio',
-    class: 'card-2',
+      "A daily selection of privately personalized reads; no accounts or sign-ups required",
+    languages: ["html", "css", "Javascript"],
+    liveLink: "https://TekyRey.github.io/Portfolio/",
+    github: "https://github.com/TekyRey/Portfolio",
+    class: "card-2",
   },
 ];
 
@@ -91,8 +90,8 @@ portfolio.innerHTML = projectArray.map((project) => {
   <section class='card ${project.class} work'>
   <img class= 'mobile-img' src='${project.mobileImg}' alt='' aria-hidden='true'>
   <img class= 'desktop-img' src='${
-  project.desktopImg
-}' alt='' aria-hidden='true'>
+    project.desktopImg
+  }' alt='' aria-hidden='true'>
 
   <div class='content'>
       <h2>${project.cardTitle}</h2>
@@ -105,7 +104,7 @@ portfolio.innerHTML = projectArray.map((project) => {
       </div>
       <p class='card-text'>${project.cardDesc}</p>
       <ul class='skills'>
-          ${project.languages.map((x) => `<li>${x}</li>`).join('')}
+          ${project.languages.map((x) => `<li>${x}</li>`).join("")}
       </ul>
       <button class='see-project submit' type='submit'>See Project</button>
   </div>
@@ -114,14 +113,14 @@ portfolio.innerHTML = projectArray.map((project) => {
   return html;
 });
 
-const submitButton = document.querySelectorAll('.submit');
-const popup = document.querySelector('.popup');
-const mainContent = document.querySelector('.page-content');
+const submitButton = document.querySelectorAll(".submit");
+const popup = document.querySelector(".popup");
+const mainContent = document.querySelector(".page-content");
 
 submitButton.forEach((button) => {
-  button.addEventListener('click', () => {
-    popup.classList.remove('hide');
-    mainContent.classList.add('blur');
+  button.addEventListener("click", () => {
+    popup.classList.remove("hide");
+    mainContent.classList.add("blur");
     popup.innerHTML = `
     <div class='popup-header'>
     <h2>Tonic</h2>
@@ -172,21 +171,22 @@ submitButton.forEach((button) => {
 </div>
     `;
 
-    document.querySelector('.cancel').addEventListener('click', () => {
-      popup.classList.add('hide');
-      mainContent.classList.remove('blur');
-      popup.innerHTML = '';
+    document.querySelector(".cancel").addEventListener("click", () => {
+      popup.classList.add("hide");
+      mainContent.classList.remove("blur");
+      popup.innerHTML = "";
     });
   });
 });
 
-//local storage
+// Local Storage
+
 const form = document.querySelector("form");
 
 const userName = form.elements.name;
 const userEmail = form.elements.email;
 const userMessage = form.elements.message;
-function populateStorage() {
+function populateLocalStorage() {
   const userInput = {
     name: form.elements.name.value,
     email: form.elements.email.value,
@@ -194,7 +194,7 @@ function populateStorage() {
   };
   localStorage.setItem("userInput", JSON.stringify(userInput));
 }
-function setForm() {
+function setFormData() {
   const storedInput = JSON.parse(localStorage.getItem("userInput"));
   const currentUserName = storedInput.name;
   const currentUserEmail = storedInput.email;
@@ -203,19 +203,12 @@ function setForm() {
   form.elements.email.value = currentUserEmail;
   form.elements.message.value = currentMessage;
 }
-if (!localStorage.getItem("userInput")) {
-  populateStorage();
-} else {
-  setForm();
-}
- 
 
-//document.ready function
-document.addEventListener('DOMContentLoaded', () => {
-  localStorage.getItem("userInput")
-    ? setForm()
-    : userName.onchange = populateStorage;
-      userEmail.onchange = populateStorage;
-      userMessage.onchange = populateStorage;;
+if (!localStorage.getItem("userInput")) {
+  populateLocalStorage();
+} else {
+  setFormData();
 }
-);
+userName.onchange = populateLocalStorage;
+userEmail.onchange = populateLocalStorage;
+userMessage.onchange = populateLocalStorage;
