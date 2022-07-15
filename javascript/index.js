@@ -16,7 +16,7 @@ mobileMenuItems.forEach((item) => {
   });
 });
 
-// Form Validation
+// Form Valid
 
 const formInput = document.getElementById("contact-form");
 const email = document.querySelector("#email");
@@ -192,7 +192,7 @@ function populateLocalStorage() {
     email: form.elements.email.value,
     message: form.elements.message.value,
   };
-  localStorage.setItem("userInput", JSON.stringify(userInput));
+  localStorage.setItem('userInput', JSON.stringify(userInput));
 }
 function setFormData() {
   const storedInput = JSON.parse(localStorage.getItem("userInput"));
